@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 140" role="img" aria-label="Schéma Modèle - Vue - Contrôleur">
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#007BFF"/></marker></defs>
+<g font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">
+<rect x="10" y="50" width="76" height="40" rx="6" fill="#fff" stroke="#007BFF" stroke-width="2"/><text x="48" y="75" fill="#2c3e50">Modèle</text>
+<rect x="112" y="50" width="76" height="40" rx="6" fill="#fff" stroke="#007BFF" stroke-width="2"/><text x="150" y="75" fill="#2c3e50">Contrôleur</text>
+<rect x="214" y="50" width="76" height="40" rx="6" fill="#fff" stroke="#007BFF" stroke-width="2"/><text x="252" y="75" fill="#2c3e50">Vue</text>
+</g>
+<path d="M110 70 H90" stroke="#007BFF" stroke-width="2" marker-end="url(#a)"/>
+<path d="M190 70 H210" stroke="#007BFF" stroke-width="2" marker-end="url(#a)"/>
+</svg>
