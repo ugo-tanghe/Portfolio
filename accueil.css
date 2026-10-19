@@ -178,3 +178,15 @@ main {
     .mes-infos { max-width: none; }
     .titre-haut-de-page { font-size: clamp(2.2rem, 9vw, 3.4rem); }
 }
+
+.photo-a-venir {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(160deg, #eef0f3 0%, #dfe3e8 100%);
+    color: #9aa3ad;
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+}
