@@ -1,0 +1,21 @@
+# Pipeline GitHub Actions : vérifie le HTML du portfolio à chaque push
+name: Vérification du HTML
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verifier-html:
+    runs-on: ubuntu-latest            # machine Linux fournie par GitHub
+    steps:
+      - name: Récupérer le code
+        uses: actions/checkout@v4
+
+      - name: Installer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Valider les pages HTML
+        run: npx --yes html-validate@8.18.2 "*.html"
