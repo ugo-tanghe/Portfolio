@@ -119,3 +119,9 @@ body {
 .formulaire button:hover {
     background-color: #0056b3;
 }
+/* Icônes GitHub et LinkedIn (styles sortis du HTML) */
+.icone-reseau {
+    height: 26px;
+    width: auto;
+    object-fit: contain;
+}
